@@ -1,5 +1,6 @@
 #tap cac phan tu la
-List_words =  list(open('data.txt').read().split())
+File_name = 'data.txt'
+List_words =  list(open(File_name).read().split())
 print ('list of world',List_words)
 print ('\n')
 print ('------\n')
